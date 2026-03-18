@@ -40,6 +40,11 @@ items = [
 ]
 
 
-print(items[0]["name"])
+""" print(items[0]["name"])
 for index, item in enumerate(items):
-    print(index, ":", item["name"])
+    print(index, ":", item["name"]) """
+purchase =(int(input("Do you want add of items to your cart?")))
+def shop(cart):
+    purchase =(int(input("Do you want add of items to your cart?")))
+    cart = []
+    print(items)
