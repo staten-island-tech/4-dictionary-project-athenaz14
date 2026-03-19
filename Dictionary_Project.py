@@ -39,12 +39,14 @@ items = [
 }
 ]
 
-
-""" print(items[0]["name"])
 for index, item in enumerate(items):
-    print(index, ":", item["name"]) """
-purchase =(int(input("Do you want add of items to your cart?")))
-def shop(cart):
-    purchase =(int(input("Do you want add of items to your cart?")))
-    cart = []
-    print(items)
+    print(index, ":", item["name"])
+
+purchase =(input("Do you want add of items to your cart?"))
+cart = []
+while purchase != "finished purchasing!":
+    if item == purchase:
+        print(f"You added {purchase} to cart!")
+        purchase.append(item)
+
+
