@@ -44,8 +44,7 @@ for index, item in enumerate(items):
 
 purchase =(input("Do you want add of items to your cart?"))
 cart = []
-while purchase != "finished purchasing!":
-    if item == purchase:
+while purchase == item:
         print(f"You added {purchase} to cart!")
         purchase.append(item)
 
