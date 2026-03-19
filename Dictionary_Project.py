@@ -43,9 +43,14 @@ for index, item in enumerate(items):
     print(index, ":", item["name"])
 
 purchase =(input("Do you want add of items to your cart?"))
+print(f"You added {purchase} to cart!")
+
 cart = []
-while purchase == item:
+""" while purchase == item:
         print(f"You added {purchase} to cart!")
         purchase.append(item)
-
+        purchase =(input("Any additional items?"))
+        if purchase == item:
+      print("Finished with shopping")
+ """
 
