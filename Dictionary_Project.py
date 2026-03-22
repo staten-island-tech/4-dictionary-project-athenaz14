@@ -40,14 +40,20 @@ items = [
 ]
 for index, item in enumerate(items):
     print(index, ":", item["name"])
-cart = []
-while True:
-    purchase =(input("Do you want add of items to your cart? Enter stop to quit"))
-    if purchase == "stop":
-        break
-    else:
-        cart.append(item["name"])
-print(cart)
+
+
+""" def cart(items):
+    purchase =(input("Do you want add of items to your cart? Enter s to quit"))
+    prices = []
+    cart = []
+    total = 0
+    while True:
+        if purchase == "s":
+            break
+        else:
+            cart.append(item["name"])
+            prices.append(item["price"])
+ """
 
 
         
