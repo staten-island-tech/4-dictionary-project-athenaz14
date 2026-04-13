@@ -38,12 +38,6 @@ items = [
     "description": "A sheet with three holes punched"
 }
 ]
-<<<<<<< HEAD
-for index, item in enumerate(items):
-    print(index, ":", item["name"])
-
-
-=======
 prices = []
 cart = []
 total_cost = 0
@@ -65,7 +59,6 @@ for price in prices:
     print(f"{cart, total_cost}")
     
 """ while True: purchase =(input("Do you want add of items to your cart? Enter s to quit")) if purchase == "s": break elif item == purchase: cart.append(items["name"]) prices.append(items["price"]) for item in cart: print(f"{item["name"]}") total+=item["price"] print(total) """
->>>>>>> ad8193ba62c6c804d96adc6f168defb6ad8f4c96
 """ def cart(items):
     purchase =(input("Do you want add of items to your cart? Enter s to quit"))
     prices = []
