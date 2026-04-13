@@ -38,7 +38,7 @@ items = [
     "description": "A sheet with three holes punched"
 }
 ]
-""" prices = []
+prices = []
 cart = []
 total_cost = 0
 shop = True
@@ -57,29 +57,7 @@ for item in cart:
 for price in prices: 
     total_cost += price
     print(f"{cart, total_cost}")
- """
-def shopping(shop):
-    prices = []
-    cart = []
-    total_cost = 0
-    shop = True
-    for index, item in enumerate(items): 
-        print(index, ":", item["name"],item["price"])
-
-    while shop: 
-        purchase = int(input("Do you want add of items to your cart?")) 
-        cart.append(items[purchase]["name"]) 
-        prices.append(items[purchase]["price"]) 
-        continue_shopping = input("Do you want to continue to shop? Enter y or n") 
-        if continue_shopping == "n": 
-            shop = False
-    for item in cart: 
-        print(f"{cart}")
-    for price in prices: 
-        total_cost += price
-        print(f"{cart, total_cost}")
-
-
+    
 """ while True: purchase =(input("Do you want add of items to your cart? Enter s to quit")) if purchase == "s": break elif item == purchase: cart.append(items["name"]) prices.append(items["price"]) for item in cart: print(f"{item["name"]}") total+=item["price"] print(total) """
 """ def cart(items):
     purchase =(input("Do you want add of items to your cart? Enter s to quit"))
